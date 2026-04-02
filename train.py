@@ -21,5 +21,5 @@ model_data = {
     "target_names": iris.target_names
 }
 
-joblib.dump(model_data, "iris_model.joblib")
+joblib.dump(model_data, "iris_model1.joblib")
 print("Model and metadata saved successfully to iris_model.joblib")
